@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:wght@300;400;500;700&family=Roboto:wght@700&display=swap');
+
+.body_hide {
+    opacity: 0;
+    transition: .7s opacity ease-in-out;
+}
+.body_visible {
+    opacity: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: #121619;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.head {
+    font-family: "Roboto", sans-serif;
+    font-size: 46pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F0F0F0;
+}
+
+.section__head {
+    margin-top: 65px;
+}

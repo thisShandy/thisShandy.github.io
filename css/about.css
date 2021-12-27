@@ -1,0 +1,35 @@
+.about {
+    background: url("../assets/about.png") no-repeat center top / cover;
+}
+
+.photo {
+    display: flex;
+    background: url("../assets/photo.png") no-repeat center top / cover;
+    width: auto;
+    height: 75vh;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+.about-text-content {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+}
+
+.about-text {
+    display: inline-block;
+    max-width: 800px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    color: #F0F0F0;
+}
+
+.select-red {
+    display: inline-block;
+    font-family: "Fira Mono", monospace;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #FF6B6B;
+}

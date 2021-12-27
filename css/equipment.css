@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+.equipment {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/skills.png") no-repeat center top / cover;
+}
+
+.equipment-container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+}
+
+.equipment-items {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.e-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.equipment-items__e-item {
+    margin: 20px 0;
+}
+
+.e-item-name {
+    display: flex;
+    align-items: center;
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+    font-size: 22pt;
+    font-weight: 300;
+    color: #F0F0F0;
+}
+
+.program-name {
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+    font-size: 18pt;
+    font-weight: 300;
+    color: #F0F0F0;
+}
+
+.programs__program-name {
+    margin: 15px 0;
+}
+
+.e-img {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.equipment-img {
+    background: url("../assets/equipment.svg") no-repeat center top / cover;
+}

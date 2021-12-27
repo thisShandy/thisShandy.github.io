@@ -1,0 +1,119 @@
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.header-content {
+    display: flex;
+    max-width: 81.7%;
+    padding: 0 15px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    height: 4vh;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.welcome {
+    font-family: "Fira Mono", monospace;
+    font-size: 12pt;
+    color: #FF6B6B;
+}
+
+.home-content__welcome {
+    margin-bottom: 6px;
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+    font-size: 62pt;
+    font-weight: 700;
+    color: #F0F0F0;
+    text-transform: uppercase;
+}
+
+.description {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18pt;
+    font-weight: 300;
+    color: #7D8B9A;
+}
+
+.home-content__description {
+    margin-top: 35px;
+}
+
+.code {
+    width: 480px;
+    height: 480px;
+    animation: pulse 3s ease-in-out infinite alternate;
+}
+
+.home-content__code {
+    margin: 0 auto;
+}
+
+.wave {
+    width: 120%;
+    height: auto;
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 979px) {
+    .code {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .tablet-none {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-none {
+        display: none;
+    }
+    .welcome {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 48pt;
+    }
+    .description {
+        font-size: 14pt;
+    }
+}

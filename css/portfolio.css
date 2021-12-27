@@ -1,0 +1,89 @@
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/portfolio.png") no-repeat center top / cover;
+}
+
+.project-container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-img {
+    width: 256px;
+    height: 256px;
+}
+
+.project-description {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-name {
+    display: inline-block;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24pt;
+    color: #F0F0F0;
+}
+
+.select-blue {
+    display: inline-block;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24pt;
+    font-style: normal;
+    color: #69CBF5;
+}
+
+.select-regiday {
+    display: inline-block;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24pt;
+    font-style: normal;
+    color: #FA1941;
+    text-transform: uppercase;
+}
+
+.project-photos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.screen {
+    display: flex;
+    max-width: 220px;
+    height: auto;
+    margin-right: -25px;
+    border-radius: 25px;
+    -webkit-box-shadow: -5px 5px 10px 5px rgba(21, 26, 29, 0.2);
+    -moz-box-shadow: -5px 5px 10px 5px rgba(21, 26, 29, 0.2);
+    box-shadow: -5px 5px 10px 5px rgba(21, 26, 29, 0.2);
+}
+
+.project-photos .screen:nth-child(1) {
+    margin-top: 10px;
+}
+
+.project-photos .screen:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.project-photos .screen:nth-child(3) {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.project-photos .screen:nth-child(4) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
